@@ -23,5 +23,10 @@ public void testmulfunc() {
 	calc.mulfunc(10, 20);
 	assertEquals(220, calc.getResult());
 }
+public void testdivfunc() {
+	Calc1 calc = new Calc1();
+	calc.divfunc(20, 10);
+	assertEquals(2, calc.getResult());
+}
 
 }
