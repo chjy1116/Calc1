@@ -21,7 +21,7 @@ public void testsubfunc() {
 public void testmulfunc() {
 	Calc1 calc = new Calc1();
 	calc.mulfunc(10, 20);
-	assertEquals(200, calc.getResult());
+	assertEquals(220, calc.getResult());
 }
 
 }

@@ -11,6 +11,7 @@ public class Calc1 {
 	}
 	
 	public void mulfunc(int x, int y) {
+		x++;
 		result = x * y;
 	}
 	public int getResult() {
