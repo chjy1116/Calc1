@@ -16,4 +16,12 @@ public void testsubfunc() {
 	calc.subfunc(20, 10);
 	assertEquals(10, calc.getResult());
 }
+
+@Test
+public void testdivfunc() {
+	Calc1 calc = new Calc1();
+	calc.divfunc(20, 10);
+	assertEquals(2, calc.getResult());
+}
+
 }
